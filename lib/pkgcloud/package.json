@@ -66,7 +66,8 @@
     "qs": "^6.7.0",
     "request": "^2.88.0",
     "through2": "^3.0.1",
-    "util": "^0.11.1"
+    "util": "^0.11.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
   "main": "./lib/pkgcloud",
@@ -74,7 +75,9 @@
     "test": "make test",
     "cov": "make cov",
     "travis": "make travis",
-    "lint": "make lint"
+    "lint": "make lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "config": {
     "blanket": {
@@ -84,5 +87,6 @@
   },
   "engines": {
     "node": ">=0.10.x"
-  }
+  },
+  "snyk": true
 }
