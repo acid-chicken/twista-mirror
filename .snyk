@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - eslint-plugin-vue > vue-eslint-parser > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - elasticsearch > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - pkgcloud > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - minio > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - eslint > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - bull > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - hard-source-webpack-plugin > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - lookup-dns-cache > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - lookup-dns-cache > async > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - video-thumbnail-generator > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - eslint > table > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - pkgcloud > async > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - portscanner > async > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - summaly > cheerio-httpcli > async > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - summaly > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2019-07-04T04:18:51.255Z'
